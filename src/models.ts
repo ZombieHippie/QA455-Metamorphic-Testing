@@ -1,13 +1,13 @@
 
-// Lang is a language that a user speaks
-export type Lang = string
+// Trait is the base type for anything that a user "has"
+export type Trait = string
 
 export interface User {
   Name: string,
-  Langs: Lang[]
+  Traits: Trait[]
 }
 
 export interface Group {
-  SimilarLang: Lang[]
+  SimilarTrait: Trait[]
   Users: User[]
 }

@@ -27,6 +27,6 @@ const impl1_0 = Impl1(
 console.log(impl1_0)
 
 
-function NewUser (name: string, langs: M.Lang[]): M.User {
-  return { Name: name, Langs: langs }
+function NewUser (name: string, traits: M.Trait[]): M.User {
+  return { Name: name, Traits: traits }
 }

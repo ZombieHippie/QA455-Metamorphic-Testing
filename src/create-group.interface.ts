@@ -2,5 +2,5 @@
 import * as M from './models'
 
 export interface CreateGroup {
-  (users: M.User[], langs: M.Lang[]): M.Group[]
+  (users: M.User[], traits: M.Trait[]): M.Group[]
 }

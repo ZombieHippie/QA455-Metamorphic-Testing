@@ -5,10 +5,10 @@ import chalk = require('chalk')
 import { CreateGroup } from './create-group.interface'
 
 export const Impl1: CreateGroup =
-function (users, langs) {
+function (users, traits) {
   let res: M.Group[] = []
 
-  console.log('Langs:', langs.map((lang) => chalk.yellow(lang)).join(', '))
+  console.log('Traits:', traits.map((trait) => chalk.yellow(trait)).join(', '))
 
   return res
 }
